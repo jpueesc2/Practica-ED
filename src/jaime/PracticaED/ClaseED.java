@@ -13,8 +13,10 @@ public class ClaseED
 		num1 = Integer.parseInt(lectura.readLine());
 		System.out.println("Deme otro número: ");
 		num2 = Integer.parseInt(lectura.readLine());
+		System.out.println("Deme otro número: ");
+		num3 = Integer.parseInt(lectura.readLine());
 		
-		suma = num1 + num2;
+		suma = num1 + num2 + num3;
 		System.out.println("La suma es "+suma);
 	}
 }
