@@ -7,7 +7,7 @@ public class ClaseED
 	public static void main(String[] args) throws IOException
 	{
 		BufferedReader lectura = new BufferedReader(new InputStreamReader(System.in));
-		int num1, num2, suma;
+		int num1, num2, num3, suma;
 		
 		System.out.println("Ingrese número: ");
 		num1 = Integer.parseInt(lectura.readLine());
